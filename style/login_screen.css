@@ -1,11 +1,13 @@
 .bg{
     background:url("../images/geo.jpg") ;
-    background-size: cover;
+
+    background-size: 100% 100%;
     background-attachment: fixed;
     overflow: hidden;
 }
 .block::before {
     background:url("../images/geo.jpg") 0 / cover fixed;
+    background-size: 100% 100%;
     content: '';
     position: absolute;
     filter: blur(3px);
