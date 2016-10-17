@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style\login.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="style\login.css" media="screen and (min-width: 1050px)">
+	<link rel="stylesheet" type="text/css" href="style\login_screen.css" media="screen and (max-width: 1050px)">
+	<link rel="stylesheet" type="text/css" href="style\login_moblie.css" media="screen and (max-width: 480px)">
+
+	<script src="js/jquery-1.12.1.js"></script>
+	<script src="js/js.js"></script>
+
+	<title>中国地质大学（武汉）校园网认证</title>
+</head>
+<body class="bg">
+	<div class="wrapper">
+		<div class="marker">
+			<ul class="marker-list">
+				<li class="marker-li li_1 active"><span></span><a href="#">登陆</a></li>
+				<li class="marker-li li_2" ><span></span><a href="#">开户</a></li>
+				<li class="marker-li li_3" ><span></span><a href="#">链接</a></li>
+			</ul>
+		</div>
+		<div class="content">
+			<div class="block-wrapper">
+				<div class="block login active">
+					<div class="header">
+						<h1>校园网认证</h1>
+					</div>
+					<form id="login-form" action="http://192.168.168.46/?$USERURL" method="POST">
+						<div class="input-wrapper"><span id="yonghu"><i class="iconfont">&#xe607;</i></span><input name="username" class="input" id="user" type="text" size="25" placeholder="" value=""></div>
+						<div class="input-wrapper"><span id="mima"><i class="iconfont">&#xe692;</i></span><input name="password" class="input" id="password" onpaste="return false;" type="password" size="25" placeholder="" value=""></div>
+						<div class="state-wrapper"><input name="rmbUser" id="rmbUser" type="checkbox" value="1"><span> 记住我的登录状态</span></div>
+						<div class="input-wrapper"><input name="B1" class="login_button" type="submit" value="登录"></div>
+					</form>
+				</div>
+				<div class="block register">
+					<div class="header">
+						<h1>开户攻略</h1>
+					</div>
+					<div class="step">
+						<div class="step-1">
+							<h3>第一步关注企业号</h3>
+							<div>
+								<img src="images/cugwxqyh.jpg" style="width: 100px" alt="企业号">
+							</div>
+						</div>
+						<div class="goto">
+							<img src="" alt="">
+						</div>
+						<div class="step-2">
+							<h3>第二步扫描二维码</h3>
+							<div>
+								<img src="images/cugwxkh.jpg" style="width: 100px"  alt="二维码">
+							</div>
+						</div>
+					</div>					
+				</div>
+				<div class="block links">
+					<div class="header">
+						<h1>你想要的链接</h1>	
+					</div>
+					<ul class="links-ul">
+						<li><a href="#">地大首页</a></li>
+						<li><a href="#">网络在线</a></li>
+						<li><a href="#">网络视频</a></li>
+						<li><a href="#">侏罗纪公园 BBS</a></li>
+						<li><a href="#">FTP 资源</a></li>
+						<li><a href="#">IPv6 资源</a></li>
+					</ul>
+					</div>
+			</div>
+		</div>
+	</div>
+	<div class="new"></div>
+	<div class="footer">
+		<div class="ft-link">
+			<a href="#">网络在线</a>&nbsp;-&nbsp;
+			<a href="#">网络视频</a>&nbsp;-&nbsp;
+			<a href="#">侏罗纪公园 BBS</a>&nbsp;-&nbsp;
+			<a href="#">FTP 资源</a>&nbsp;-&nbsp;
+			<a href="#">IPv6 资源</a>
+		</div>
+		<p>© 2016 中国地质大学（武汉）网络与教育技术中心 <span id="dianshi">页面设计：点石团队</span></p>
+	</div>
+</body>
+</html>
