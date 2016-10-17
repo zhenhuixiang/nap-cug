@@ -4,13 +4,13 @@
     padding:0;
 }
 .bg{
-    background:url("../images/geo.jpg");
+    background:url("");
     background-size: cover;
     background-attachment: fixed;
     overflow: hidden;
 }
 .bg::before {
-    background: url("../images/geo.jpg") 0 / cover fixed;
+    background: url("../images/geo-moblie.jpg") 0 / cover fixed;
     content: '';
     position: absolute;
     filter: blur(5px);
