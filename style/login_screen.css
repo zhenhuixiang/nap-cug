@@ -1,0 +1,18 @@
+.bg{
+    background:url("../images/geo.jpg") ;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.block::before {
+    background:url("../images/geo.jpg") 0 / cover fixed;
+    content: '';
+    position: absolute;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -ms-filter: blur(3px);
+    -o-filter: blur(3px);
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: -1;
+}

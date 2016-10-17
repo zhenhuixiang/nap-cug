@@ -90,8 +90,8 @@ a{
     padding-top:10px;
 }
 .bg{
-    background:url("../images/geo.jpg");
-    background-size: cover;
+    background:url("../images/geo.jpg") ;
+    background-size: 100% 100%;   /*这种方法才能对齐*/
     background-attachment: fixed;
     overflow: hidden;
 }
@@ -122,6 +122,7 @@ a{
 }
 .block::before {
     background:url("../images/geo.jpg") 0 / cover fixed;
+    background-size: 100% 100%;  
     content: '';
     position: absolute;
     filter: blur(3px);

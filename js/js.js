@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	//事件
+	//书签点击事件
 	$(".li_1 ,.li_1 a").click(function(){
 		$(".marker-li").removeClass("active");
 		$(".li_1").addClass("active");
