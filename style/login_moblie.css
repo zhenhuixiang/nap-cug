@@ -13,11 +13,11 @@
     background: url("../images/geo-moblie.jpg") 0 / cover fixed;
     content: '';
     position: absolute;
-    filter: blur(5px);
-    -webkit-filter: blur(5px);
-    -moz-filter: blur(5px);
-    -ms-filter: blur(5px);
-    -o-filter: blur(5px);
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    -moz-filter: blur(8px);
+    -ms-filter: blur(8px);
+    -o-filter: blur(8px);
     top: 0; right: 0; bottom: 0; left: 0;
     z-index: -1;
 }
@@ -25,11 +25,11 @@
     background:url("");
     content: '';
     position: absolute;
-    filter: blur(3px);
-    -webkit-filter: blur(3px);
-    -moz-filter: blur(3px);
-    -ms-filter: blur(3px);
-    -o-filter: blur(3px);
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -ms-filter: blur(0px);
+    -o-filter: blur(0px);
     top: 0; right: 0; bottom: 0; left: 0;
     z-index: -1;
 }

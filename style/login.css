@@ -119,17 +119,18 @@ a{
     -moz-transition: all 1s;  /* Firefox 4 */
     -webkit-transition: all 1s;   /* Safari 和 Chrome */
     -o-transition: all 1s;    /* Opera */
+
 }
 .block::before {
     background:url("../images/geo.jpg") 0 / cover fixed;
     background-size: 100% 100%;  
     content: '';
     position: absolute;
-    filter: blur(3px);
-    -webkit-filter: blur(3px);
-    -moz-filter: blur(3px);
-    -ms-filter: blur(3px);
-    -o-filter: blur(3px);
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -ms-filter: blur(5px);
+    -o-filter: blur(5px);
     top: 0; right: 0; bottom: 0; left: 0;
     z-index: -1;
 }
