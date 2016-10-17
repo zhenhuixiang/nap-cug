@@ -213,7 +213,10 @@ a{
 .links-ul li{
     display: block;
     font-size: 12px;
-    margin: 5px auto;
+    margin: 0 auto 15px auto;
+}
+.links-ul li a:hover{
+	color: #77a2d4;
 }
 .footer{
     position: fixed;
