@@ -131,6 +131,7 @@ a{
     -moz-filter: blur(5px);
     -ms-filter: blur(5px);
     -o-filter: blur(5px);
+	filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=4, MakeShadow=false);
     top: 0; right: 0; bottom: 0; left: 0;
     z-index: -1;
 }
