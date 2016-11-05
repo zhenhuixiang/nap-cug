@@ -201,6 +201,7 @@ a{
     margin: 0 auto; 
 }
 .step-1,.step-2{
+	width:152px;
     float: left;
     margin:0px 12px 20px 13px;
 }
