@@ -148,7 +148,7 @@ a{
     text-align: center;
     padding: 9px 0 9px 0;
     border-radius: 5px 5px 0 0 ;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     border-bottom: 1px solid #eee;
 }
 .input-wrapper{
@@ -206,6 +206,8 @@ a{
     margin:0px 12px 20px 13px;
 }
 .step-1 img,.step-2 img{
+	width:100px;
+	height:100px;
     margin-top: 15px;
 }
 .block.links ul.links-ul{

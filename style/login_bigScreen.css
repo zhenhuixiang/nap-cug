@@ -1,0 +1,66 @@
+.iconfont{
+	font-size:20px;
+}
+#yonghu,#mima{
+	margin-right:10px;
+}
+#rmbUser{
+    position: relative;
+	height:16px;
+	width:16px;
+    top: 2px;
+}
+.header{
+	font-size: 16px;
+}
+.block-wrapper{
+	width:620px;
+}
+.block{
+    width: 620px;
+	height:370px;
+	padding:0;
+}
+.input,.state-wrapper{
+	font-size:20px;
+	width:420px;
+	height:40px;
+	margin:10px auto 0 auto;
+}
+.state-wrapper{
+	width:445px;
+	height:40px;
+	line-height:40px;
+	font-size:15px;
+}
+.login_button{
+	width:450px;
+	height:40px;
+	border-radius: 20px; 
+}
+.login_button:hover{
+    background: #77a2d4;
+    border-radius: 20px; 
+} 
+.step{
+	width:560px;
+}
+.step-1,.step-2{
+	width:252px;
+    float: left;
+    margin:24px 12px 20px 13px;
+}
+.step-1 img,.step-2 img{
+	width:150px;
+	height:150px;
+    margin-top: 20px;
+}
+.header{
+	margin-bottom:35px;
+}
+.links-ul li{
+    display: block;
+    font-size: 14px;
+    margin: 0 auto 25px auto;
+    margin: 0 auto 25px auto;
+}
